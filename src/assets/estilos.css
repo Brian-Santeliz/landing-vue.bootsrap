@@ -1,0 +1,49 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+.separador {
+  margin: 5rem 0;
+}
+.heading-principal {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .heading-principal {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .heading-principal {
+    margin-top: 7rem;
+  }
+}
+
+.servicios .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.servicios h2 {
+  font-weight: 400;
+}
+.servicios .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+.imagen {
+  background: url(../assets/img/photo-1519058082700-08a0b56da9b4.jpeg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
